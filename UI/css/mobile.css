@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+  /* #Header starts here */
+  .sidenav {
+    padding-top: 15px;
+   }
+  .sidenav .normal-link {
+   font-size: 18px;
+   text-transform: uppercase;
+   color: #000000;
+   }
+   .sidenav .post-article-btn{
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+    margin-top: 14px;
+    user-select: none;
+    display: inline-block;
+    border: 2px solid transparent;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-image: none;
+    transition: all .15s;
+    box-shadow: 0 1px 6px rgba(57,73,76,.35);
+    color: #fff;
+    background:#37a000;
+    border-color: transparent;
+    cursor: pointer;
+}
+   .art-btn-container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1030;
+    width: 100%;
+    height: 80px;
+    background-color: #f9f9f9;
+    box-shadow: 0 -1px 6px 0 rgba(0,0,0,.3);
+    text-align: center;
+   }
+   #navbar {
+   display: none
+  }
+   #showcase {
+    height: 100%;
+    background: #2b5468;
+  }
+  #showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  #showcase .showcase-content h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  #showcase .showcase-content p {
+    font-size: 15px;
+  }
+  .bg-color {
+    min-height: 460px;
+    background: none;
+  }
+  /* #Article section begins here*/
+  .search-input-container{
+    width:280px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    }
+    .search-filter{
+      display: flex;
+      flex-direction: row;
+    }
+  /* #Article ends here*/
+}
+@media screen and (min-width: 769px) {
+    .right {
+      display: none;
+    }
+    /* #Header ends here */
+
+  }
